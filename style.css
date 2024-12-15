@@ -1,0 +1,73 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Container for the links */
+.link-container {
+    margin-top: 30px;
+}
+
+/* Individual link styling */
+.link {
+    display: block;
+    margin: 15px auto;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    width: 250px;
+    transition: all 0.3s ease;
+}
+
+/* Specific button colors */
+.link:nth-child(1) {
+    background-color: #04b0ee; /* Oops! Men */
+}
+
+.link:nth-child(2) {
+    background-color: #ed258e; /* Oops! Women */
+}
+
+.link:nth-child(3) {
+    background-color: #d86600; /* Oops! Kids */
+}
+
+.link:nth-child(4) {
+    background-color: #000000; /* Oops! Wear */
+}
+
+/* Hover and active states */
+.link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.link:active {
+    opacity: 0.8;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .link {
+        width: 200px;
+        font-size: 18px;
+    }
+}
